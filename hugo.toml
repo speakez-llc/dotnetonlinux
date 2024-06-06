@@ -12,7 +12,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "A recursive journey in open-source .NET - including tools, tips, news & views for optimizing Linux Server & Desktop Experiences"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = ".NET on Linux"
   # Sets where "View More Posts" links
@@ -89,7 +89,7 @@ canonifyURLs = true
 [params.intro]
   header    = ".NET on Linux"
 
-  paragraph = "A recursive center of knowledge that explores open-source tools, tips, applications & operational notes for optimizing .NET on Linux Plaforms"
+  paragraph = "A recursive journey in open-source .NET - including tools, tips, news & views for optimizing Linux Server & Desktop Experiences"
 
   about     = "This site covers some of the history of .NET as it developed into an open-source platform. It also covers server and desktop tooling and applications that can be used to develop and deploy .NET workloads on Linux."
 
