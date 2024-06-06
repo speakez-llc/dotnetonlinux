@@ -41,93 +41,94 @@ Aside from the clever use of CSS filtering for base elements, which I outline be
 
 And here is the final JavaScript which runs checks on page load and includes some event listeners. I'll spell out some details in this entry but there are some spoilers in the inline comments. And if you want to start with the simplest version of this JS you can refer to the article where I started, which simply responds to the user action on the on-screen control.
 
-```js
-const toggle = document.getElementById("dark-mode-toggle");
-const clear = document.getElementById("clear-dark-mode");
-const modal = document.getElementById("myModal");
-let darkTheme = document.getElementById("dark-mode-theme");
 
-// set mode on page load
-document.addEventListener("DOMContentLoaded", setDefaultMode, false);
+```javascript
+    const toggle = document.getElementById("dark-mode-toggle");
+    const clear = document.getElementById("clear-dark-mode");
+    const modal = document.getElementById("myModal");
+    let darkTheme = document.getElementById("dark-mode-theme");
 
-// Checks for value pushed from OS or browser settings
-const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    // set mode on page load
+    document.addEventListener("DOMContentLoaded", setDefaultMode, false);
 
-// this try/catch only exists because of Safari being weird
-try {
-    // Chrome & Firefox
-    darkMediaQuery.addEventListener('change', (e) => {
-        setDefaultMode();
-    });
-} catch (e1) {
+    // Checks for value pushed from OS or browser settings
+    const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    // this try/catch only exists because of Safari being weird
     try {
-        // Safari
-        darkMediaQuery.addListener((e) => {
+        // Chrome & Firefox
+        darkMediaQuery.addEventListener('change', (e) => {
             setDefaultMode();
         });
-    } catch (e2) {
-        console.error(e2);
+    } catch (e1) {
+        try {
+            // Safari
+            darkMediaQuery.addListener((e) => {
+                setDefaultMode();
+            });
+        } catch (e2) {
+            console.error(e2);
+        }
     }
-}
 
-// changes theme when sun/moon clicked on the menu
-toggle.addEventListener("click", toggleSwitch, false);
+    // changes theme when sun/moon clicked on the menu
+    toggle.addEventListener("click", toggleSwitch, false);
 
-// pop modal and clear localStorage when 'reset' clicked
-clear.addEventListener("click", resetLocalStorage, false);
+    // pop modal and clear localStorage when 'reset' clicked
+    clear.addEventListener("click", resetLocalStorage, false);
 
-function resetLocalStorage() {
-    $('#myModal').modal('show');
-    localStorage.removeItem('dark-mode-storage');
-    // rerun the default function to pick up browser/OS setting
-    setDefaultMode();
-}
-
-// changes the menu logo and triggers the theme change
-function toggleSwitch() {
-    if (toggle.className === "fas fa-moon") {
-        setTheme("dark");
-    } else if (toggle.className === "fas fa-sun") {
-        setTheme("light");
+    function resetLocalStorage() {
+        $('#myModal').modal('show');
+        localStorage.removeItem('dark-mode-storage');
+        // rerun the default function to pick up browser/OS setting
+        setDefaultMode();
     }
-}
 
-function setTheme(mode) {
-    localStorage.setItem("dark-mode-storage", mode);
-
-    if (mode === "dark") {
-        // set dark theme
-        darkTheme.disabled = false;
-        toggle.className = "fas fa-sun";
-    } else if (mode === "light") {
-        // set light theme
-        darkTheme.disabled = true;
-        toggle.className = "fas fa-moon";
+    // changes the menu logo and triggers the theme change
+    function toggleSwitch() {
+        if (toggle.className === "fas fa-moon") {
+            setTheme("dark");
+        } else if (toggle.className === "fas fa-sun") {
+            setTheme("light");
+        }
     }
-}
 
-function setDefaultMode() {
-    // check if localStorage value exists
-    if (localStorage.getItem('dark-mode-storage')) {
-        // get the value and set the theme
-        console.log("localStorage value used to set light/dark")
-        let savedTheme = localStorage.getItem("dark-mode-storage");
-        setTheme(savedTheme);
-    } else {
-        //check user preferences for browser scheme
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    function setTheme(mode) {
+        localStorage.setItem("dark-mode-storage", mode);
+
+        if (mode === "dark") {
             // set dark theme
             darkTheme.disabled = false;
             toggle.className = "fas fa-sun";
-            console.log('dark mode is enabled by browser/OS preference');
-        } else {
-            // set light theme            
+        } else if (mode === "light") {
+            // set light theme
             darkTheme.disabled = true;
             toggle.className = "fas fa-moon";
-            console.log('light mode is enabled by browser/OS preference');
         }
     }
-}
+
+    function setDefaultMode() {
+        // check if localStorage value exists
+        if (localStorage.getItem('dark-mode-storage')) {
+            // get the value and set the theme
+            console.log("localStorage value used to set light/dark")
+            let savedTheme = localStorage.getItem("dark-mode-storage");
+            setTheme(savedTheme);
+        } else {
+            //check user preferences for browser scheme
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                // set dark theme
+                darkTheme.disabled = false;
+                toggle.className = "fas fa-sun";
+                console.log('dark mode is enabled by browser/OS preference');
+            } else {
+                // set light theme            
+                darkTheme.disabled = true;
+                toggle.className = "fas fa-moon";
+                console.log('light mode is enabled by browser/OS preference');
+            }
+        }
+    }
 ```
 
 ## Actions, overt and implied

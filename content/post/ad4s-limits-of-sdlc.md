@@ -11,7 +11,7 @@ date: '2021-04-11T15:59:43+05:30'
 featuredpath: img
 featured: adaptivedesign.png
 ogfeatured: H3_og_wide_adaptivedesign.png
-emblem: perspective.png
+emblem: penguin_server.jpg
 description: Moving Beyond Agile SDLCs 
 draft: false
 tags:
