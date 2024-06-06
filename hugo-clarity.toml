@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = ".NET on Linux"
-theme = "h3tech-future-imperfect"
+theme = "hugo-clarity"
 preserveTaxonomyNames = true
 paginate = 3
 googleAnalytics = ""
@@ -56,18 +56,11 @@ canonifyURLs = true
   # customCSS            = ["default", "/path/to/file"]
   # customJS             = ["default", "/path/to/file"]
 
-  customCSS             = ["default", "/css/add.css"]
-  customJS              = ["default", "/js/iFrameResizer.min.js", "/js/iframeResizer.contentWindow.min.js", "/js/hideGitInfoInProd.js", "/js/dark-mode-listener.js", "/js/contact.js"]
+  customCSS             = ["default"]
+  customJS              = ["default", "/js/hideGitInfoInProd.js", "/js/contact.js"]
 
 
-  # options for highlight.js (version, additional languages, and theme)
-  disable_highlight = false # set to true to disable Highlight
-  highlightjsVersion = "11.9.0"
-  highlightjsCDN = "//cdn.bootcss.com"
-  highlightjsLang = ["csharp", "fsharp", "powershell", "yaml", "css", "js", "json", "xml", "markdown", "bash", "shell", "sql", "typescript", "r", "go", "java", "kotlin", "swift", "php", "python", "ruby", "rust", "scala", "scss", "less", "stylus", "vim", "nginx", "dockerfile", "plaintext"]
-  highlightjsTheme = "github"
-  MathJaxCDN = "//cdn.bootcss.com"
-  MathJaxVersion = "2.7.1"
+
 
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
 # due to its ease of use. Feel free to check out both and decide what you would
