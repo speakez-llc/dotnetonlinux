@@ -1,0 +1,83 @@
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    <!-- Scripts -->
+
+    {{ if isset .Site.Params "customjs" }}
+      {{ $.Scratch.Set "jsFiles" .Site.Params.customJS }}
+    {{ else }}
+      {{ $.Scratch.Set "jsFiles" false }}
+    {{ end }}
+
+    {{ if (not .Params.disable_highlight) }}
+      {{ $highVer := .Site.Params.highlightjsVersion }}
+      {{ $highCDN := (.Site.Params.highlightjsCDN | default "//cdn.bootcss.com") }}
+      {{ if (not (eq $highVer "")) }}
+        <script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/highlight.min.js"></script>
+        {{ $.Scratch.Set "highLangs" .Site.Params.highlightjsLang }}
+        {{ range .Params.highlightjsLang }}{{ $.Scratch.Add "highLangs" . }}{{ end }}
+        {{ range ($.Scratch.Get "highLangs") }}
+        <script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/languages/{{ . }}.min.js"></script>{{ end }}
+      {{ end }}
+    {{ end }}
+    <!-- If the value "default" is passed into the param then we will first
+     load the standard js files associated with the theme -->
+    {{ if or (in ($.Scratch.Get "jsFiles") "default") (eq ($.Scratch.Get "jsFiles") false) }}
+      <script type="text/javascript">
+      // Notice how this gets configured before we load Font Awesome
+      window.FontAwesomeConfig = { autoReplaceSvg: false }
+    </script>
+<!--    <script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script> -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      <script src="https://kit.fontawesome.com/3e50397676.js" crossorigin="anonymous"></script>
+      <script data-search-pseudo-elements defer src="/js/all.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="{{ "js/util.js" | relURL }}"></script>
+      <script src="{{ "js/main.js" | relURL }}"></script>
+      <script src="{{ "js/backToTop.js" | relURL }}"></script>
+    {{ end }}
+
+    {{ if ne ($.Scratch.Get "jsFiles") false }}
+      {{ range $.Scratch.Get "jsFiles" }}
+        {{ if ne . "default" }}
+          <script src="{{ . | relURL }}"></script>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+  <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Clear Dark Mode Setting</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <!-- This is called by default since this theme uses highlight.js -->
+    <script>hljs.initHighlightingOnLoad();</script>
+      {{ partial "footer_mathjax" . }}
+  </body>
+</html>

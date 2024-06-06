@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = ".NET on Linux"
-theme = "hugo-future-imperfect"
+theme = "h3tech-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
 googleAnalytics = ""
@@ -16,7 +16,7 @@ canonifyURLs = true
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = ".NET on Linux"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/post/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -43,12 +43,11 @@ canonifyURLs = true
   socialShare          = true
   # Sets specific share to appear on posts (default behavior is to appear)
   socialShareTwitter   = true
-  socialShareGoogleplus = true
+  socialShareDiscord = false
   socialShareFacebook  = true
   socialShareReddit    = true
   socialShareLinkedin  = true
-  socialShareStumbleupon = true
-  socialSharePinterest = true
+  socialShareSlack = false
   socialShareEmail     = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
@@ -92,7 +91,7 @@ canonifyURLs = true
 
   paragraph = "A repository of open-source tools, tips, applications & operational notes centering on .NET for Linux Plaforms"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "This site covers some of the history of .NET as it developed into an open-source platform. It also covers server and desktop tooling and applications that can be used to develop and deploy .NET workloads on Linux."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.

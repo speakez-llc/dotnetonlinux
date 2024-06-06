@@ -1,0 +1,19 @@
+<header>
+    <div class="title">
+        {{ if $.Scratch.Get "h1" }}
+            <h1 class="{{ .Params.icon }}"><a href="{{ .RelPermalink }}">  {{ .Title }}</a></h1>
+            {{ $.Scratch.Set "h1" false }}
+        {{ else }}
+            <h2 class="{{ .Params.icon }}"><a href="{{ .RelPermalink }}">  {{ .Title }}</a></h2>
+        {{ end }}
+        {{ with .Description }}
+            {{ . }}
+        {{ end }}
+    </div>
+    <div class="meta">
+        <div class="btn-group-vertical align-self-center">
+            <button class="button btn-block mb-2 vitae-up" onclick="window.location.href='/about';">&nbsp;About</button>
+            <button class="button btn-block vitae-back" onclick="location.href = document.referrer; return false;">&nbsp;Back</button>
+        </div>
+    </div>
+</header>

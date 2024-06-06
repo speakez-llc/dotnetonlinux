@@ -1,0 +1,11 @@
+<article class="post">
+  {{ .Render "header" }}
+  {{ $.Scratch.Set "summary" ((delimit (findRE "<p[^>]*>(.*?)</p>" .Content 1) "") | replaceRE "&amp;" "&" | safeHTML | truncate (default 300 .Site.Params.summary_length) (default " ..." .Site.Params.text.truncated ) ) }}
+  {{ $.Scratch.Get "summary" }}
+  <footer>
+    <ul class="actions">
+      <li><a href="{{ .RelPermalink }}" class="button big ml-2 mr-2">Continue Reading</a></li>
+    </ul>
+  {{ .Render "footer-category" }}
+  </footer>
+</article>

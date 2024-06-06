@@ -1,0 +1,38 @@
+{{ $url := .Get 0 }}
+{{ with getJSON (printf "https://h3portfoliosite.azurewebsites.net/api/gethtmlmeta?url=%s&code=Wmiant3HlKqY4ZMuSlo5xte8ubzkTEuCHqXGTUdsDgryliaaem5pMQ==" ( .Get 0 )) }}
+<div class="card centered" style="max-width:36rem;width:100%;margin-bottom:2rem;">
+    <div class="card-header font-weight-bold" style="letter-spacing:.15rem;">
+        <a href="{{ if .ogurl }}
+                    {{ .ogurl }}
+                {{ else }}
+                    {{ $url }}
+                {{ end }}" target="_blank">{{ .ogtitle | title }}</a>
+    </div>
+    <div class="card-body">
+        {{ if .ogimage }}
+            {{ with .ogimage }}
+            <img src="{{ . }}" alt="" class="card-img-top rounded bordered mb-2" style="width:100%;height:auto">
+            {{ end }}
+        {{ else }}
+            <img src="/img/siteimagemissing.png" alt="" class="card-img-top rounded bordered mb-2" style="width:100%;height:auto">
+        {{ end }}
+        <div class="mt-2 small">
+                {{ with .ogdescription }}<caption>{{ . | htmlUnescape | markdownify }}</caption>{{ end }}
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="font-italic text-muted small">
+            {{ with .author }}Author: {{ . }},&nbsp;{{ end }}
+            {{ if .applicationname }}
+                {{ with .applicationname }}Source: {{ . }} {{ end }}
+            {{ else }} 
+                {{ with .ogsite_name }}Source: {{ . }} {{ end }}
+            {{ end }}
+            {{ if in .articlepublished_time "T" }}
+                {{ with .articlepublished_time }}&nbsp;&middot;&nbsp;&nbsp;{{ dateFormat "Jan 02, 2006" . }} {{ end }}
+            {{ else }}
+                {{ with .articlepublished_time}}&nbsp;&middot;&nbsp;&nbsp;{{ . }} {{ end }}
+            {{ end }}</div>
+    </div>
+</div>
+{{ end }}
