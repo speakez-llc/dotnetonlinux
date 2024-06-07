@@ -38,6 +38,7 @@
   name = "Twitter"
   weight = 2
   url = "https://twitter.com/#"
+
 [[social]]
   name = "linkedin"
   weight = 3

@@ -1,10 +1,12 @@
 # enable search
 enableSearch = false
 
+
 # socials
 twitter = "@SpeakEZ-LLC"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "A recursive journey into .NET on Linux - with open-source tools, tips, news & views to improve your desktop & server experience"
+
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 # keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -121,6 +123,7 @@ languageMenuName = "🌐"
 # Maximum number of pinned featured posts. (default: 8)
 numberOfPinnedPosts = 2
 
+
 # Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
 # dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
 # customFonts = false # toggle to true if you want to use custom fonts only.
@@ -128,6 +131,7 @@ numberOfPinnedPosts = 2
 # The year when ths website was created, this value is used in the copyright
 # notice of the footer.
 # since = 2024
+
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
 # showRelatedInArticle = false
