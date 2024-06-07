@@ -19,8 +19,8 @@
   url = "https://www.linkedin.com/"
 [[main]]
   parent = "Links"
-  name = "X"
-  url = "https://x.com/"
+  name = "Twitter"
+  url = "https://Twitter.com/"
 
 [[main]]
   name = "About"
@@ -35,9 +35,9 @@
   weight = 1
   url = "https://github.com/#"
 [[social]]
-  name = "X"
+  name = "Twitter"
   weight = 2
-  url = "https://x.com/#"
+  url = "https://twitter.com/#"
 [[social]]
   name = "linkedin"
   weight = 3
