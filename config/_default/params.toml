@@ -51,10 +51,10 @@ fontsDir = "fonts/" # without a leading forward slash
 
 # Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
 # when a given page has no other image present.
-fallBackOgImage = "img/dotnetonlinux.jpg"
+fallBackOgImage = "img/dnol_og_wide.png"
 
 # Logo image
-logo = "img/dotnetonlinux_small.jpg"
+logo = "img/dotnetonlinux_small.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
