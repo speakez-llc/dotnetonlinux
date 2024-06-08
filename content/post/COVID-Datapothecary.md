@@ -20,7 +20,6 @@ tags:
 - COVID-19
 - MathJax
 - tidyverse
-- rich-content
 categories: 
 - Deep Dive
 editor_options: 
@@ -111,6 +110,7 @@ $$\begin{cases}\LARGE\overline{p}\text{SM} &= \LARGE\frac { \normalsize{p} \smal
 
 $$\begin{cases}\overline{p}_\text{SM} = \frac { p_M + p_{M-1} + \cdots + p_{M-(n-1)}}{n}
  = \frac{1}{n} \sum_{i=0}^{n-1} p_{M-i}\ \end{cases}$$
+
 
 
 And while it can seem a bit intimidating on the surface, the logic is - as the name implies - simple. The calculation uses values ahead *and* behind in the current series to create an average value. And within R there's a *slider* library that piggy-backs on *tidyverse* conventions to produce this function with just a few parameters. 
