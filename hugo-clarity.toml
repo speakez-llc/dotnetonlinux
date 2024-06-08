@@ -89,7 +89,7 @@ canonifyURLs = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/dotnetonlinux_small.jpg"
+    src       = "/img/dotnetonlinux_small.png"
     # Sets Image to be a cirlce
     circle    = true
     # Sets Image to be Future Imperfect's hexagon

@@ -105,10 +105,12 @@ Most public COVID-19 reports show some form of *smoothed* data. It's commonly re
 
 Here we'll take an academic side-bar to look a the math and how it's applied in R. The formula for "simple mean" calculation - takes the the *wiggle* out of the individual measures while preserving the overall trajectory of the data.
 
-$$\begin{eqnarray} \LARGE\overline{p}\text{SM} &= \LARGE\frac { \normalsize{p} \small{M} \normalsize + p{ \small_M -1} + \cdots + p{M \normalsize-(n-1)^{}}}{n} \\\ &= \LARGE\frac1n \sum{i=0}^{n-1} p_{ \small{M} \normalsize{-i}} \ \end{eqnarray}$$
+$$\begin{cases}\LARGE\overline{p}\text{SM} &= \LARGE\frac { \normalsize{p} \small{M} \normalsize + p{ \small_M -1} + \cdots + p{M \normalsize-(n-1)^{}}}{n} \\\\\\\
+ &= \LARGE\frac1n \sum{i=0}^{n-1} p_{ \small{M} \normalsize{-i}} \ \end{cases}$$
 
-$$\overline{p}_\text{SM} = \frac { p_M + p_{M-1} + \cdots + p_{M-(n-1)}}{n} \\\ 
-= \frac{1}{n} \sum_{i=0}^{n-1} p_{M-i}$$
+$$\begin{cases}\overline{p}_\text{SM} = \frac { p_M + p_{M-1} + \cdots + p_{M-(n-1)}}{n}
+ = \frac{1}{n} \sum_{i=0}^{n-1} p_{M-i}\ \end{cases}$$
+
 
 
 And while it can seem a bit intimidating on the surface, the logic is - as the name implies - simple. The calculation uses values ahead *and* behind in the current series to create an average value. And within R there's a *slider* library that piggy-backs on *tidyverse* conventions to produce this function with just a few parameters. 
