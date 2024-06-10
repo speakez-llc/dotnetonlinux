@@ -6,22 +6,17 @@ aliases = ["about-us"]
 author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+It still surprises many in the software community that .NET has been open-source and multi-platform for many years. While there are many individual and commercial efforts to  This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded. The idea is to create a center for collecting notes, insights and community contributions on the wide and varied world of open-source development for the .NET ecosystem. It is to serve two purposes:
 
-Hugo makes use of a variety of open source projects including:
+- organize information on relevant, modern and emerging efforts related to cross-platform .NET libraries and tooling
+- socialize the value proposition of open-source .NET to the broader business community
+- track the fragmented OSS landscape and serve as a waypoint to collect and contribute information toward Linux becoming a first-class experience for .NET development
+- establish a base where the community may contribute as a collective effort independent from the aegis and/or influence of Microsoft
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+[Microsoft has their own take](https://devblogs.microsoft.com/xamarin/history-dot-net-standard/) on the history of .NET for cross-platform development. There's no way that this little static web site can complete with their well-funded corporate megaphone. That said, this blog was created in the (perhaps naive) belief that "someplace" should maintain some independence and serve as a collection point for developers that choose .NET as their open-source platform of choice. This applies in particular to those that wish to keep the corporate influences on the .NET ecosystem at arm's length.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Along those lines, there have been recent announcements by Microsoft regarding their Copilot product for Windows 11, the "Recall" feature in particular. While it was originally the intent here to focus on the Linux *server* experience, there was some expectation that the Linux _desktop_ would also become a subject of interest. This carries from Houston's own interest the maturing Linux desktop efforts that are ongoing today. But with the announcement of Recall and the subsequent response from the community, it's expected that Linux desktop development will become a major point of interest, if not emphasis, on this site. That's speculation at this point, and much of that is up to the amount of sustained interest and contribution from the community. 
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+This site will continue to grow, and there will be opportunities to help influence the direction the site takes as more community members become involved. If you're interested in authoring a blog post or contributing in some other fashion, feel free to let us know in the [discussion portion of the GitHub repository](https://github.com/speakez-llc/dotnetonlinux/discussions). 
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
+_Thanks!_
