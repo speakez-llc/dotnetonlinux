@@ -6,9 +6,9 @@ aliases = ["about-us"]
 author = "Hugo Authors"
 +++
 
-It still surprises a broad segment of the software community that .NET has been open-source and multi-platform for many years. This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded - as collection point for information and to serve as a community resource. The concept was to make some attempt to track the wide and varied world of open-source development of cross-platform tools for the .NET ecosystem. It is to serve several purposes:
+It still surprises a broad segment of the software community that .NET has been open-source and multi-platform for many years. This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded - as collection point for information and to serve as a community resource. The concept was to make some attempt to track the wide and varied world of open-source development of cross-platform tools for the .NET ecosystem - with Linux as a point of emphasis, as the site name would imply. This blog is to serve several purposes:
 
-- organize information on relevant, modern and emerging efforts related to cross-platform .NET libraries and tooling, particularly for Linux deployment
+- organize information on relevant, modern and emerging efforts related to cross-platform .NET libraries and tooling, particularly for Linux environments
 - socialize the value proposition of open-source .NET to the broader business community
 - track the fragmented OSS landscape, collect and contribute information toward Linux becoming a first-class experience for .NET development
 - establish a waypoint where the community may share knowledge and socialize their collective efforts independent from the aegis and/or influence of Microsoft
