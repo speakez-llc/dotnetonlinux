@@ -79,7 +79,7 @@ _Sound familiar?_
 
 {{< ext-link-card "https://www.forbes.com/sites/quickerbettertech/2024/01/26/why-you-should-stay-away-from-microsoft-copilot-pro-this-year/" >}}
 
-And as you might expect, the "Pro" version they later rolled out was not only difficult to enable on the desktop is also vastly underperformed. Users who had garden variety Office documents found that copilot just choked on the data. And when they finally pared back to the data sufficient for Copilot to deal with it, the responses it gave were easily dismissed as wildly wrong. But this hasn't deterred Microsoft from its ambitions - with their plans to roll out the Recall feature.
+And as you might expect, the "Pro" version they later rolled out was not only difficult to enable on the desktop is also vastly underperformed. Users who had garden variety Office documents found that Copilot just choked on the data. And when they finally pared back to the data sufficient for Copilot to deal with it, the responses it gave were easily dismissed as wildly wrong. But this hasn't deterred Microsoft from its ambitions - with their plans to roll out the Recall feature.
 
 ## Recall (Re)enters the chat
 
