@@ -666,6 +666,9 @@ figcaption
   border-radius: 0.6rem
   background-color: var(--bg)
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.17)
+  @media (max-width: 768px)
+    padding-bottom: 56.25% // Adjust padding-bottom to maintain aspect ratio for 100% width
+    width: 100%
   iframe
     left: 0
     top: 0
@@ -684,6 +687,8 @@ figcaption
   border-radius: 0.6rem
   background-color: var(--bg)
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.17)
+  @media (max-width: 768px)
+    width: 100%
   .body > a > img
       border-radius: 0.6rem 0  0 0
       overflow: hidden 
