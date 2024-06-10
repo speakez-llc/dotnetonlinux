@@ -33,7 +33,7 @@ Before we touch on that, a round-up of Microsoft's sorted history on this topic 
 
 ## Trying too hard for too long
 
-For those of us that remember "Clippy" (ca. 1997) the history of Microsoft trying to force unnecessary "productivity" on its customers goes back decades. It's a punchline today - and with Apple's Siri, Amazon's Alexa and "Hey Google" invading our digital lives it may come across as quaint by comparison. But it reveals the long history that Microsoft has with pushing un-asked-for features on its users. At a minimum it was a net-negative for "productivity" as it served as a distraction.
+For those of us that remember "Clippy" (ca. 1997) the history of Microsoft trying to force unnecessary "productivity" on its customers goes back more than a decade. It's a punchline today - and with Apple's Siri, Amazon's Alexa and "Hey Google" invading our digital lives it may come across as quaint by comparison. But it reveals the long history that Microsoft has with pushing un-asked-for features on its users. At a minimum it was a net-negative for "productivity" as it served as a distraction.
 
 {{< youtube2-small id="Z2-7AcUwKus" >}}
 
