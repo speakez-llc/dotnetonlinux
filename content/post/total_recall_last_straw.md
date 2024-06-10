@@ -89,7 +89,7 @@ But of course they say nothing to the potential _unintended_ harms that could em
 
 {{< ext-link-card "https://www.forbes.com/sites/quickerbettertech/2024/06/09/business-tech-roundup-expert-microsoft-windows-ai-recall-a-security-disaster/" >}}
 
-So, if you looked at Recall on its own and decided *that* was enough to motivate you to look at moving off of Windows altogether, this article will likely only reinforce that decision. it's to be expected that Microsoft will back-walk their happy talk and continue to move the goalposts, just as they did with "productivity scores" and Cortana.
+So, if you looked at Recall on its own and decided *that* was enough to motivate you to look at moving off of Windows altogether, this article will likely only reinforce that decision. It's to be expected that Microsoft will back-walk their happy talk and continue to move the goalposts, just as they did with "productivity scores" and Cortana.
 
 But the risks to both people's online identity _and_ personal safety are real. The brief except in the video below captures the essence of the very tangible risks that Recall presents to certain users.
 
