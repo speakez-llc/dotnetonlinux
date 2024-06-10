@@ -47,7 +47,7 @@ As a final footnote to this early drama, a detailed recounting of Clippy and it'
 
 ## Productivity score - an Orwellian misadventure
 
-The notion of "digital assistant" was used by Microsoft to push their own special brand of "productivity" onto the desktop. But their palette of marketing terms and commercial labels continued ot develop. The launch of their "Workplace Analytics" initiative was gleefully championed as a tool of the people...
+The notion of "digital assistant" was used by Microsoft to push their own special brand of "productivity" onto the desktop. But their palette of marketing terms and commercial labels continued to develop. The launch of their "Workplace Analytics" initiative was gleefully championed as a tool of the people...
 
 > “As leaders, it’s our job to make sure people have the tools they need to do their best work. But tools alone are not enough — you also need to help everyone in your organization build the habits that harness the true power of those tools. Until now, it’s been difficult for leaders to get insight into these habits and understand how to help people make the most of the technology they invest in.”
 
