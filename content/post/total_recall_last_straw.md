@@ -29,7 +29,7 @@ tags:
 
 Microsoft has announced "Recall" - something that no one asked for. What's worse than that, it has potential to be quite actively harmful to end users. If there's one up-side to this, because of the "AI hype cycle" the announcement has garnered world-wide attention, but it's certainly not the first time that Microsoft made such a move. What makes this different is that this most recent relapse has caused even the most staunch Windows fan to raise serious questions about the _unintended_ choices being made when we choose a computer operating system. While this may be a new level of collective awareness, this unfolding drama is just the latest in a long line of Windows OS mishaps. And while they're trotting out variations of the same corporate double-speak and moving the goal posts in order to justify continuing rolling out the feature, long time users of Windows are looking around for alternatives. And it looks like Linux desktop has met its moment.
 
-Before we touch on that, a round-up of Microsoft's sorted history on this topic deserves consideration...
+Before we touch on that, a round-up of Microsoft's sordid history on this topic deserves consideration...
 
 ## Trying too hard for too long
 
