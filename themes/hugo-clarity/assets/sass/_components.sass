@@ -535,6 +535,11 @@ figcaption
   font-style: italic
   opacity: 0.67
   font-size: 0.9rem
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  
 
 .to
   &_top
@@ -650,6 +655,51 @@ figcaption
     border: none
     position: absolute
     transform: scale(1.02)
+
+.video-small
+  overflow: hidden
+  padding-bottom: 28.125% // Adjust padding-bottom to maintain aspect ratio for 50% width
+  position: relative
+  width: 50% // Set container width to 50%
+  height: 0
+  margin: 1.5rem auto
+  border-radius: 0.6rem
+  background-color: var(--bg)
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.17)
+  iframe
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    border: none
+    position: absolute
+    transform: scale(1.02)
+
+.card
+  overflow: hidden
+  background: none !important
+  position: relative
+  width: 50% 
+  margin: 0 auto
+  border-radius: 0.6rem
+  background-color: var(--bg)
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.17)
+  .body > a > img
+      border-radius: 0.6rem 0  0 0
+      overflow: hidden 
+      margin: 0
+
+.link-container
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  text-align: center
+
+.twitter-tweet-rendered
+	display: block
+	margin-left: auto
+	margin-right: auto
 
 .notices
   border-top-width: 2rem

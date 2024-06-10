@@ -1,0 +1,14 @@
+{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get 0 )) }}
+<div class="card">
+    <div class="body">
+        {{ if .data.image }}
+            <a href="{{ .data.url }}" target="_blank"><img src="{{ .data.image.url }}" alt=""></a>
+        {{ else }}
+            <a href="{{ .data.url }}" target="_blank"><img src="/img/siteimagemissing.png" alt=""></a>
+        {{ end }}
+    </div>
+    <div class="link-container">
+        <a href="{{ .data.url }}" target="_blank">{{ .data.title | title }}</a>
+    </div>
+</div>
+{{ end }}
