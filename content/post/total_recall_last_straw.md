@@ -73,7 +73,7 @@ As we all now know... while the Cortana feature was dropped from the desktop exp
 
 ## Copilot - Recall's Lame Trojan Horse
 
-ChatGPT made a big splash - heralding the "AI hype cycle" with ripple effects we're all witnessing to this day. And Microsoft made a big bet on OpenAI by investing in them heavily, so it would stand to reason that they would look to capitalize. So their replacement for Cortana - referred to as Copilot - rolled out to much fanfare. While it started with the expected flashing text stream of hallucinated answers, it also promised to help users solve real problems with their Office application.
+ChatGPT made a big splash - heralding the "AI hype cycle" with ripple effects we're all witnessing to this day. And Microsoft made a big bet on OpenAI by investing in them heavily, so it would stand to reason that they would look to capitalize. So their replacement for Cortana - referred to as Copilot - rolled out to much fanfare. While it started with the expected flashing text stream of hallucinated answers, it also promised to help users solve real problems with their Office applications.
 
 _Sound familiar?_
 
