@@ -3,7 +3,7 @@ title = "About .NET on Linux"
 description = ".NET on Linux"
 date = "2024-06-01"
 aliases = ["about-us"]
-author = "Hugo Authors"
+author = "Houston Haynes"
 +++
 
 It still surprises a broad segment of the software community that .NET has been open-source and multi-platform for many years. This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded - as collection point for information and to serve as a community resource. The concept was to make some attempt to track the wide and varied world of open-source development of cross-platform tools for the .NET ecosystem - with Linux as a point of emphasis, as the site name would imply. This blog is to serve several goals:
