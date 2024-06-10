@@ -6,12 +6,12 @@ aliases = ["about-us"]
 author = "Hugo Authors"
 +++
 
-It still surprises many in the software community that .NET has been open-source and multi-platform for many years. While there are many individual and commercial efforts to  This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded. The idea is to create a center for collecting notes, insights and community contributions on the wide and varied world of open-source development for the .NET ecosystem. It is to serve two purposes:
+It still surprises a broad segment of the software community that .NET has been open-source and multi-platform for many years. This site started as a notion of Houston Haynes in 2021 when his company [SpeakEZ](https://speakez.ai) was founded - as collection point for information and to serve as a community resource. The concept was to make some attempt to track the wide and varied world of open-source development of cross-platform tools for the .NET ecosystem. It is to serve several purposes:
 
-- organize information on relevant, modern and emerging efforts related to cross-platform .NET libraries and tooling
+- organize information on relevant, modern and emerging efforts related to cross-platform .NET libraries and tooling, particularly for Linux deployment
 - socialize the value proposition of open-source .NET to the broader business community
-- track the fragmented OSS landscape and serve as a waypoint to collect and contribute information toward Linux becoming a first-class experience for .NET development
-- establish a base where the community may contribute as a collective effort independent from the aegis and/or influence of Microsoft
+- track the fragmented OSS landscape, collect and contribute information toward Linux becoming a first-class experience for .NET development
+- establish a waypoint where the community may share knowledge and socialize their collective efforts independent from the aegis and/or influence of Microsoft
 
 [Microsoft has their own take](https://devblogs.microsoft.com/xamarin/history-dot-net-standard/) on the history of .NET for cross-platform development. There's no way that this little static web site can complete with their well-funded corporate megaphone. That said, this blog was created in the (perhaps naive) belief that "someplace" should maintain some independence and serve as a collection point for developers that choose .NET as their open-source platform of choice. This applies in particular to those that wish to keep the corporate influences on the .NET ecosystem at arm's length.
 
