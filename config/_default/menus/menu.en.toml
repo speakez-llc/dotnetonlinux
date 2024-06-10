@@ -4,15 +4,31 @@
   weight = -110
 
 [[main]]
-  name = "Perspectives"
-  url = "categories/perspective/"
+  name = "News"
+  url = "categories/news/"
   weight = -109
+
+[[main]]
+  name = "Views"
+  url = "categories/views/"
+  weight = -108
+
+[[main]]
+  name = "Tools"
+  url = "categories/tools/"
+  weight = -107
+
+
+[[main]]
+  name = "Contribute"
+  url = "categories/contribute/"
+  weight = -101
 
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"
   identifier = "Links"
-  weight = -108
+  weight = -100
 [[main]]
   parent = "Links"
   name = "LinkedIn"
@@ -25,7 +41,7 @@
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -99
 
 # social menu links
 
