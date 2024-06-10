@@ -27,27 +27,25 @@ tags:
 
 ## Deja vu all over again
 
-Microsoft has done it again. They've announced "Recall" - something that no one asked for. What's worse, it looks like it has potential to be quite harmful. Because of the "AI hype cycle" this has gotten much broader attention. This is not the first time that Microsoft has done something like this. What makes this different is that this most recent relapse has caused even the most staunch WinOS fan to raise serious questions about the _unintended_ choices that we're making as users when we choose a computer operating system. While this may be a new level of collective awareness among the broader user base, this unfolding drama is just the latest in a long line of Windows OS mishaps. And while they're using corporate double-speak - moving the goal posts in order to justify continuing rolling out the feature - long time users of Windows OS are looking around for alternatives. 
+Microsoft has announced "Recall" - something that no one asked for. What's worse than that, it has potential to be quite actively harmful to end users. If there's one up-side to this, because of the "AI hype cycle" the announcement has gotten much broader attention. But it's certainly not the first time that Microsoft has done something like this. What makes this different is that this most recent relapse has caused even the most staunch Windows fan to raise serious questions about the _unintended_ choices being made when we choose a computer operating system. While this may be a new level of collective awareness, this unfolding drama is just the latest in a long line of Windows OS mishaps. And while they're trotting out variations of the same corporate double-speak and moving the goal posts in order to justify continuing rolling out the feature, long time users of Windows are looking around for alternatives. And it looks like Linux desktop has met its moment.
 
 Before we touch on that, a round-up of Microsoft's sorted history on this topic deserves consideration...
 
 ## Trying too hard for too long
 
-For those of us that remember "Clippy" (ca. 1997) the history of Microsoft trying to force unnecessary "productivity" goes back a long way. It's a punchline today - and with Apple's Siri, Amazon's Alexa and "Hey Google" invading our digital lives it may come across as quaint by comparison. But it reveals the long history that Microsoft has with pushing un-asked-for features on its users. At a minimum it was a net-negative for "productivity" as it served as a distraction. 
+For those of us that remember "Clippy" (ca. 1997) the history of Microsoft trying to force unnecessary "productivity" on its customers goes back decades. It's a punchline today - and with Apple's Siri, Amazon's Alexa and "Hey Google" invading our digital lives it may come across as quaint by comparison. But it reveals the long history that Microsoft has with pushing un-asked-for features on its users. At a minimum it was a net-negative for "productivity" as it served as a distraction.
 
 {{< youtube2-small id="Z2-7AcUwKus" >}}
 
-Not only were the user's eye-line and concentration interrupted, but the user had to wheel their mouse over to the corner of the screen to dismiss it. Having to watch the closing animation added insult to injury. There were more "assistants" than Clippy, too. In the video above you'll be reminded of the "rogue's gallery" that was offered. 
+Not only were the user's eye-line and concentration interrupted, but the user had to wheel their mouse over to the corner of the screen to dismiss it. The closing animations added insult to injury. There were more "assistants" than Clippy, too. In the video above you'll be reminded of the "rogue's gallery" that was offered.
 
 {{< ext-link-card "https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant" >}}
 
-As a final footnote to this early drama, a detailed recounting of Clippy and it's compatriots noted that the creator of that technology left it off of his resume when it came time for him to search for a new gig.
-
-
+As a final footnote to this early drama, a detailed recounting of Clippy and it's compatriots noted that the creator of that technology left it off of his resume when it came time for him to search for a new gig. 🤔
 
 ## Productivity score - an Orwellian misadventure
 
-The notion of "digital assistant" was used by Microsoft to push their own special brand of "productivity" onto the desktop. But their palette of marketing terms and commercial labels continued to develop. The launch of their "Workplace Analytics" initiative was gleefully championed as a tool of the people...
+The notion of "digital assistant" was used by Microsoft to push their own special brand of "productivity" onto the desktop. As they retrenched and retried the variations on that theme, their palette of marketing terms and commercial labels continued to develop. The launch of their "Workplace Analytics" initiative was gleefully championed as a tool of the people...
 
 > “As leaders, it’s our job to make sure people have the tools they need to do their best work. But tools alone are not enough — you also need to help everyone in your organization build the habits that harness the true power of those tools. Until now, it’s been difficult for leaders to get insight into these habits and understand how to help people make the most of the technology they invest in.”
 
@@ -75,7 +73,7 @@ As we all now know... while the Cortana feature was dropped from the desktop exp
 
 ## Copilot - Recall's Lame Trojan Horse
 
-ChatGPT made a big splash - heralding the "AI hype cycle" with ripple effects we're all witnessing to this day. And Microsoft made a big bet on OpenAI by investing in them heavily, so it would stand to reason that they would look to capitalize on that. So their replacement for Cortana - referred to as Copilot - rolled out to much fanfare. While it started with the expected flashing text stream of hallucinated answers, it also promised to help users solve real problems win their Office application. 
+ChatGPT made a big splash - heralding the "AI hype cycle" with ripple effects we're all witnessing to this day. And Microsoft made a big bet on OpenAI by investing in them heavily, so it would stand to reason that they would look to capitalize. So their replacement for Cortana - referred to as Copilot - rolled out to much fanfare. While it started with the expected flashing text stream of hallucinated answers, it also promised to help users solve real problems with their Office application.
 
 _Sound familiar?_
 
@@ -85,13 +83,13 @@ And as you might expect, the "Pro" version they later rolled out was not only di
 
 ## Recall (Re)enters the chat
 
-Recall was described as a device-specific feature for the new Snapdragon Elite ARM processors from Qualcomm. That's already been proven to not be the case, so the question remains whether Microsoft will force this onto all Windows 11 desktops. Setting that aside for now, the feature can be summarized as a capture of your desktop every few seconds and processing with optical character recognition and other machine learning tasks in order to extract a semantic context from each screen. All the information it captures is then placed in a SQLite database on the system to centralize all of the user's activities. The purported "benefit" of this is to allow the user to go back in time and see what they might have been doing at a given point. 
+Recall was described as a device-specific feature for the new Snapdragon Elite ARM processors from Qualcomm. That's already been shown to **not** be the case, so the question remains whether Microsoft will force this onto all Windows 11 desktops. Setting that aside for now, the feature can be summarized as an image capture of your desktop every few seconds and processing with optical character recognition and other machine learning tasks in order to extract a semantic context from each screen. All the information it captures is then placed in a SQLite database on the system to centralize all of the user's activities. The purported "benefit" of this is to allow the user to go back in time and see what they might have been doing at a given point.
 
-But of course they say nothing to the potential _unintended_ harms that could emerge. 
+But of course they say nothing to the potential _unintended_ harms that could emerge.
 
 {{< ext-link-card "https://www.forbes.com/sites/quickerbettertech/2024/06/09/business-tech-roundup-expert-microsoft-windows-ai-recall-a-security-disaster/" >}}
 
-So, if you looked at Recall on its own and decided *that* was enough to motivate you to look at moving off of WindowsOS altogether, this article will likely have only reinforced that decision. Microsoft will back-walk their happy talk and continue to move the goalposts, just as they did with "productivity scores" and Cortana. 
+So, if you looked at Recall on its own and decided *that* was enough to motivate you to look at moving off of Windows altogether, this article will likely only reinforce that decision. it's to be expected that Microsoft will back-walk their happy talk and continue to move the goalposts, just as they did with "productivity scores" and Cortana.
 
 But the risks to both people's online identity _and_ personal safety are real. The brief except in the video below captures the essence of the very tangible risks that Recall presents to certain users.
 
@@ -107,12 +105,12 @@ And yet, even as they react and make some attempt at course-correction, there's 
 
 If any role can be replaced by a hallucinating AI chatbot - it's the _corporate apologist_. 🙄
 
-This is - in two words - _not good_. At this point Microsoft isn't even trying to hide their disdain for customers. Looking at Recall, it can only be summed up as the worst features of Cortana and productivity scoring **combined**. Along with a host of technology risks it provides runway for some pretty catastrophic harms that are simply not at issue in the absence of the feature.
+This is - in two words - _not good_. At this point Microsoft isn't even trying to hide their disdain for customers. Looking at Recall, it can only be summed up as the worst features of Cortana and Workplace Analytics **combined**. Along with a host of technology risks it provides runway for some pretty catastrophic harms that are simply not a factor in the absence of the feature.
 
 ## So what now?
 
-Pretty quickly after the announcement of Recall there were pronouncements from technology circles of planned moves to Linux desktop. I was already considering that after building out my own Debian-based lab to run workloads adjacent to my office. The notion of running a Linux desktop as a VM seemed like a natural extension. But with the announcement of Recall there will be larger numbers looking into Linux for their own reasons. Some will have an eye toward Linux's improvements in video gaming. Others will cite privacy. Still others till tout its efficiency over running Windows on comparable hardware. And when it comes to hardware, it's also possible to use those efficiency gains to give new life to older machines. There are many, many reasons to move to Linux on its own merits. And there has been serious momentum in advancing the Linux desktop - both by larger enterprise providers and the usual diaspora of boutique projects.
+Pretty quickly after the announcement of Recall there were pronouncements from technology circles of planned moves to Linux desktop. I was already considering that after building out my own Debian-based lab to run workloads adjacent to my office. The notion of running a Linux desktop as a VM for software development and other aspects of engineering seemed like a natural extension. But with the announcement of Recall there will be larger numbers of users with diverse interests looking into Linux desktop options for their own reasons. Some will have an eye toward Linux's emerging improvements in video gaming. Others will cite privacy. Still others till tout its efficiency over running Windows on comparable hardware. And when it comes to hardware, it's also possible to use those efficiency gains to give new life to older machines. There are many, many reasons to move to Linux desktop on its own merits. And there has been serious momentum in advancing the Linux desktop user experience - both by larger enterprise providers and the usual diaspora of boutique projects.
 
 When Windows users discover the progress that's been made by Linux on the desktop, they'll realize that *like* the server transition there will be some sharp edges to the process. But the emergence of on-going efforts to advance foundational elements like video driver support and UX improvement, coupled with the exodus from Windows as a platform, will create another shift in the field of technology that could be as broad and meaningful as the advent of the Linux server.
 
-While this site will focus on working with .NET and software engineering related concerns, we expect that this will be a growing area of interest among a broad array of computer users with interests as diverse as the personal desktop marketplace itself. And as a final bit or irony, we'll all have Microsoft to "thank" for providing the final nudge to this technology era's latest "tipping point" and it won't be toward AI.
+While this site will focus on working with .NET and software engineering related concerns, we expect that this will be a growing area of interest among a broad array of computer users with interests as diverse as the personal desktop marketplace itself. And as a final bit or irony, we'll all have Microsoft to "thank" for providing the final nudge to this technology era's latest "tipping point" and it won't be toward their idea of what AI should be.
