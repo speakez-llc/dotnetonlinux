@@ -37,7 +37,7 @@ There's a common myth out there that "Linux is only for software developers" (an
 
 ## Enter Mike Kelly
 
-Mike Kelly is the CTO of [MemberVault](https://membervault.co), a platform that provides a variety of member services offerings, including courseware, membership, workshop and coaching management. He posted a thread on X about his experience with re-imaging and donating discarded/donated laptops.
+Mike Kelly is the CTO of [MemberVault](https://membervault.co), a platform that provides a variety of member services offerings, including courseware, membership, workshop and coaching management. He posted a thread on X about a personal project - his experience with re-imaging and donating discarded/donated laptops.
 
 {{< tweet user="mikecodemonkey" id="1798729302110044164" >}}
 
