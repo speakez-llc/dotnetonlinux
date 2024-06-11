@@ -1,7 +1,7 @@
 ---
 title: "Free (Linux) Mint Experiment" # Title of the blog post.
 date: 2024-06-11T07:48:20-04:00 # Date of post creation.
-description: "Article description." # Description used for search engine.
+description: "Turning castaway hardware into digital freedom for the under-served" # Description used for search engine.
 featured: false # Sets if post is a featured post, making it appear on the sidebar. A featured post won't be listed on the sidebar if it's the current page
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
