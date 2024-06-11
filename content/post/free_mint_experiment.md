@@ -38,7 +38,7 @@ Mike Kelly is the CTO of [MemberVault](https://membervault.co), a platform that 
 
 {{< tweet user="mikecodemonkey" id="1798729302110044164" >}}
 
-The following posts in that thread revealed the following:
+The posts that follow in that thread revealed some genuinely encouraging findings:
 
 1. Once you got the computer, was it easy to start using right away?
 
