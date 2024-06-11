@@ -8,7 +8,7 @@ toc: false # Controls if a table of contents should be generated for first-level
 # menu: main
 usePageBundles: false # Set to true to group assets like images in the same folder as this post.
 featureImage: "/img/fme_og_wide.png" # Sets featured image on blog post.
-featureImageAlt: 'Description of image' # Alternative text for featured image.
+featureImageAlt: 'Linux Mint on a former Windows laptop' # Alternative text for featured image.
 featureImageCap: 'Turning castaway hardware into digital freedom for the under-served' # Caption (optional).
 thumbnail: "/img/Free_Mint_Experiment.png" # Sets thumbnail image appearing inside card on homepage.
 shareImage: "/img/Free_Mint_Experiment.png" # Designate a separate image for social media sharing.
