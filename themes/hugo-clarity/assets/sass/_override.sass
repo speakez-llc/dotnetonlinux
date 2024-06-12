@@ -41,7 +41,7 @@ html
   --font: Metropolis, sans-serif
   --theme: #141516
   --ease: cubic-bezier(.19,1,.22,1)
-  --code-bg: var(--bg)
+  --code-bg: var(--haze)
   --table-bg: var(--light)
   --table-haze: var(--haze)
   --table-border: #dedede
@@ -102,6 +102,9 @@ html
         &::after
           background-image: url("#{$imagesPath}night-moon.jpg")
           transform: translateX(1.4rem)
+    .highlight
+      pre
+        color: var(--light) !important
 
   @media (prefers-color-scheme: dark)
 
