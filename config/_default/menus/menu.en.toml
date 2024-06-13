@@ -31,12 +31,76 @@
   weight = -100
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "The Linux Foundation Blog"
+  url = "https://www.linuxfoundation.org/blog"
+  weight = -120
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://X.com/"
+  name = "The .NET Foundation Blog (Microsoft)"
+  url = "https://dotnetfoundation.org/news-events/latest-news"
+  weight = -119
+[[main]]
+  parent = "Links"
+  name = "SciSharp Stack (.NET Machine Learning)"
+  url = "https://scisharp.github.io/SciSharp/"
+  weight = -118
+[[main]]
+  parent = "Links"
+  name = "Sergey Tihon's Blog (F# Weekly)"
+  url = "https://sergeytihon.com/fsharp-weekly/"
+  weight = -117
+[[main]]
+  parent = "Links"
+  name = ".NET on Fedora"
+  url = "https://developer.fedoraproject.org/tech/languages/dotnet/dotnetcore.html"
+  weight = -116
+[[main]]
+  parent = "Links"
+  name = ".NET on OpenShift"
+  url = "https://access.redhat.com/documentation/en-us/net/8.0/html-single/getting_started_with_.net_on_openshift_container_platform/index"
+  weight = -115
+[[main]]
+  parent = "Links"
+  name = ".NET on Ubuntu"
+  url = "https://ubuntu.com/blog/tag/net"
+  weight = -114
+[[main]]
+  parent = "Links"
+  name = "'On Linux Systems' (cool indie blog)"
+  url = "https://onlinux.systems/"
+  weight = -113
+[[main]]
+  parent = "Links"
+  name = "Avalonia UI Framework Showcase"
+  url = "https://avaloniaui.net/showcase"
+  weight = -112
+[[main]]
+  parent = "Links"
+  name = "Uno Platform on Linux"
+  url = "https://platform.uno/uno-platform-for-linux/"
+  weight = -111
+[[main]]
+  parent = "Links"
+  name = "Wilderness Labs Emulator on Linux"
+  url = "https://developer.wildernesslabs.co/Meadow/Getting_Started/Getting_Started_Meadow.Desktop/Getting_Started_Linux/"
+  weight = -110
+[[main]]
+  parent = "Links"
+  name = "WSL.dev (indie Windows Subsystem for Linux blog)"
+  url = "https://wsl.dev/"
+  weight = -109
+[[main]]
+  parent = "Links"
+  name = "Scott Hanselman's Blog (mostly WSL)"
+  url = "https://www.hanselman.com/blog/category/linux"
+  weight = -108
+[[main]]
+  parent = "Links"
+  name = "F# on Linux (F# Foundation Blog)"
+  url = "https://fsharp.org/use/linux/"
+  weight = -107
+
+  
 
 [[main]]
   name = "About"
