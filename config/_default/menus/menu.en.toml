@@ -33,6 +33,11 @@
   parent = "Links"
   name = "The Linux Foundation Blog"
   url = "https://www.linuxfoundation.org/blog"
+  weight = -121
+[[main]]
+  parent = "Links"
+  name = "Linux Config (Guide to GNU/Linux)"
+  url = "https://linuxconfig.org/"
   weight = -120
 [[main]]
   parent = "Links"
